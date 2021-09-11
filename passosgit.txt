@@ -1,0 +1,46 @@
+
+# Primeira vez que criar um repo
+
+git init
+git add .
+git commit -m "Primeiro COmit"
+git branch -M main
+git remote add origin https://github.com/vini547/Rust.git
+git push -u origin main
+
+# Seguunda vez e demais vezes que for dar push
+git add .
+git commit "Segundo comit"
+git push origin main
+
+#Criando uma branch
+git checkout -b "Nome_da_nova_branch"
+git add .
+git commit -m "COmit referente a branch em qustão"
+git push origin Nome_da_nova_branch
+
+#Mergindo branches
+git checkout main (Primeiro você vai para a main)
+git merge Nome_da_nova_branch (Depois vc merge a branch na main)
+
+#Git clone
+git clone <URL>
+git pull pega para sua máquinas novas alterações (novos commits que vc ainda não tem na versão que vc baixou)
+
+#Git Fork 
+Fork deixa disponivel na sua pagina do github algum projeto que vc tenho gostado 
+Fork from <user>
+
+#Git Pull request
+Manda ao dono do repositorio uma sugestão de atualização. (sugestão de commit).
+
+
+
+
+
+
+
+
+
+
+
