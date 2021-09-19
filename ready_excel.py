@@ -52,41 +52,75 @@ print(">>>>>>>>>>>>>>>  O VALOR DE wb.sheets['Medicamentos'] : ", sheet," <<<<<<
 print(">>>>>>>>>>>>>>>  O VALOR DE type(sheet) : ", type(sheet), "          <<<<<<<<<<<<<<<")
 print("")
 
-print(">>>>>>>>>>>>>>>  VALUES <<<<<<<<<<<<<<<")
+print("             >>>>>>>>>>>>>>>  VALUES <<<<<<<<<<<<<<<")
 print("")
-print("O Valor de print(a) Analgésicos                                                          :",print(a))
+print("             O Valor de print(a) Analgésicos")
+for i in a: 
+    print(i)
 print("")
-print("O Valor de print(b) Antiácidos Minerais                                                  :", print(b))
+print("             O Valor de print(b) Antiácidos Minerais")
+for i in b: 
+    print(i)
 print("")
-print("O Valor de print(c) Antiácidos Inibidores de H2                                          :", print(c))
+print("             O Valor de print(c) Antiácidos Inibidores de H2")
+for i in c: 
+    print(i)
 print("")
-print("O Valor de print(d) Antiácidos Inibidores da Bomba Protônica                             :", print(d))
+print("             O Valor de print(d) Antiácidos Inibidores da Bomba Protônica")
+for i in d: 
+    print(i)
 print("")
-print("O Valor de print(e) ANTIMICROBIANOS Aminoglicosídeos                                     :", print(e))
+print("             O Valor de print(e) ANTIMICROBIANOS Aminoglicosídeos")
+for i in e: 
+    print(i)
 print("")
-print("O Valor de print(f) ANTIMICROBIANOS Anfenicois                                           :", print(f))
+print("             O Valor de print(f) ANTIMICROBIANOS Anfenicois")
+for i in f: 
+    print(i)
 print("")
-print("O Valor de print(g) ANTIMICROBIANOS Anaerobicida                                         :", print(g))
+print("             O Valor de print(g) ANTIMICROBIANOS Anaerobicida")
+for i in g: 
+    print(i)
 print("")
-print("O Valor de print(h) ANTIMICROBIANOS Carbapênicos - Beta Lactâmicos                       :", print(h))
+print("             O Valor de print(h) ANTIMICROBIANOS Carbapênicos - Beta Lactâmicos")
+for i in h: 
+    print(i)
 print("")
-print("O Valor de print(i) ANTIMICROBIANOS Cefalosporinas (beta-lactâmicos) - Primeira Geração  :", print(i))
+print("             O Valor de print(i) ANTIMICROBIANOS Cefalosporinas (beta-lactâmicos) - Primeira Geração")
+for i in i: 
+    print(i)
 print("")
-print("O Valor de print(j) ANTIMICROBIANOS Cefalosporinas (beta-lactâmicos) - Segunda Geração   :", print(j))
+print("             O Valor de print(j) ANTIMICROBIANOS Cefalosporinas (beta-lactâmicos) - Segunda Geração")
+for i in j: 
+    print(i)
 print("")
-print("O Valor de print(k) ANTIMICROBIANOS Cefalosporinas (beta-lactâmicos) - Terceira Geração  :", print(k))
+print("             O Valor de print(k) ANTIMICROBIANOS Cefalosporinas (beta-lactâmicos) - Terceira Geração")
+for i in k: 
+    print(i)
 print("")
-print("O Valor de print(l) ANTIMICROBIANOS Macrolídeos                                          :", print(l))
+print("             O Valor de print(l) ANTIMICROBIANOS Macrolídeos")
+for i in l: 
+    print(i)
 print("")
-print("O Valor de print(m) ANTIMICROBIANOS Penicilinas - Beta Lactâmicos                        :", print(m))
+print("             O Valor de print(m) ANTIMICROBIANOS Penicilinas - Beta Lactâmicos")
+for i in m: 
+    print(i)
 print("")
-print("O Valor de print(n) ANTIMICROBIANOS Quinolonas                                           :", print(n))
+print("             O Valor de print(n) ANTIMICROBIANOS Quinolonas")
+for i in n: 
+    print(i)
 print("")
-print("O Valor de print(o) ANTIMICROBIANOS sulfametoxazol + trimetoprin                         :", print(o))
+print("             O Valor de print(o) ANTIMICROBIANOS sulfametoxazol + trimetoprin")
+for i in o: 
+    print(i)
 print("")
-print("O Valor de print(p) ANTIMICROBIANOS Tetraciclinas                                        :", print(p))
+print("             O Valor de print(p) ANTIMICROBIANOS Tetraciclinas")
+for i in p: 
+    print(i)
 print("")
-print("O Valor de print(q) ANTIMICROBIANOS ANTIFÚNGICOS SISTÊMICOS                              :", print(q))
+print("             O Valor de print(q) ANTIMICROBIANOS ANTIFÚNGICOS SISTÊMICOS")
+for i in q: 
+    print(i)
 print("")
 
 print("")
