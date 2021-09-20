@@ -3,6 +3,7 @@ import xlwings as xw
 import time as tm
 import numpy as np
 from xlwings.utils import VersionNumber
+import operator as op
 
 wb = xw.Book('CALCULADORA4.xlsx')
 print("FINALIZADO wb = xw.Book('CALCULADORA4.xlsx')")
@@ -26,11 +27,8 @@ def sin(n):
   t = np.sin(n)
   return t
 
-print("COS: " ,sheet.range('D2:D19').value)
-print("SIN: " ,sheet.range('E2:E19').value)
-
-b = sheet.range('D2:D19').value
-c = sheet.range('E2:E19').value
+b = sheet.range('E2:E19').value
+c = sheet.range('F2:F19').value
 
 print("Lenght of variable b: ", len(b))
 print("Lenght of variable c: ", len(c))
@@ -47,14 +45,22 @@ for i in c:
 print("COS")    
 for i in x: 
     print(i)
+
 print("SIN")
 for i in y:
     print(i)
 
+teta = list(map(op.add,x, y))
+
+print("TETA")
+for i in teta:
+    print(i)
 
 
-sheet.range('D2').options(transpose=True).value = x    
-sheet.range('E2').options(transpose=True).value = y
+sheet.range('D2').options(transpose=True).value = teta
+sheet.range('E2').options(transpose=True).value = x    
+sheet.range('F2').options(transpose=True).value = y
+
     
     
 
